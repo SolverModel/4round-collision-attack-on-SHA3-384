@@ -1,4 +1,5 @@
 To build the executable file, run the following command：g++ -o message_filt -O3 message_filt.cpp.
+To test speed of pre_filter, run the following command：g++ -o test test_pre_filter.cpp && ./test > test_filter_speed.
 To use the kissat solver, you must replace the path to "kissat" in the system call command within message_filt.cpp with the installation path of kissat on your computer.
 In SAT.cpp, we show how to construct our new SAT model with a prefix pair message.
 In keccak_permutation.h, we implement deduce-and-sieve algorithm and keccak permutation.
